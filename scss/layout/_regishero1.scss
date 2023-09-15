@@ -1,0 +1,37 @@
+@use "../base" as *;
+@use "../components" as *;
+.regishero1 {
+  height: 100vh;
+  background-color: #fff;
+}
+.ppp1 {
+  padding-top: 150px;
+  color: #232536;
+  text-align: center;
+
+  /* Heading H1 */
+  font-family: Sen;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 133.333% */
+  letter-spacing: -2px;
+}
+input {
+  width: 500px;
+  margin-left: 420px;
+  margin-bottom: 5px;
+  outline: none;
+  padding: 14px;
+}
+.h-b1 {
+  background: var(--Yellow, #ffd050);
+  width: 500px;
+  height: 44px;
+  margin: 20px 0px 0px 420px;
+  border: none;
+  cursor: pointer;
+}
+.h-b1:hover {
+  background-color: #fbb801;
+}

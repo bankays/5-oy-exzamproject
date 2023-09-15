@@ -1,0 +1,30 @@
+@use "../base" as *;
+@use "../components" as *;
+.rfoot {
+  height: 100px;
+  background-color: #232536;
+}
+.pf1 {
+  color: var(--Light, #fff);
+
+  /* Body 1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  padding: 25px 0px 0px 0px;
+}
+.pf2 {
+  color: var(--Light, #fff);
+
+  /* Body 1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.img {
+  margin: -30px 0px 0px 1120px;
+}

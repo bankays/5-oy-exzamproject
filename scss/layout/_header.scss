@@ -1,0 +1,119 @@
+@use "../base" as *;
+@use "../components" as *;
+@use "../base/media-query" as *;
+@use "../base" as *;
+@use "../components" as *;
+@use "../base/media-query" as *;
+* {
+  scroll-behavior: smooth;
+}
+
+header {
+  background: #232536;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+}
+// header nav {
+//   display: flex;
+//   justify-content: center;
+//   justify-content: space-between;
+// }
+#backtop {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 900;
+  background-color: rgb(135, 238, 140);
+  box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.2);
+  color: #333;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  right: 20px;
+  bottom: -50px;
+  cursor: pointer;
+  z-index: 99;
+  transition: 0.6s;
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  height: 67px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  z-index: 99;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+.nav-link {
+  color: $color-third;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+.navbar-shrink {
+  padding: 30px 0;
+}
+nav {
+  transition: 0.5s;
+  padding: 45px 0;
+}
+header .b1 {
+  border-radius: 6px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  width: 80px;
+  height: 45px;
+}
+
+.fi {
+  border-radius: 8px;
+  outline: none;
+  border-color: #bbbbcb;
+  width: 250px;
+  height: 25px;
+  margin: px 0px 0px 20px;
+  position: absolute;
+  padding: 15px;
+  margin: 0px 0px 0px -260px;
+}
+
+#b1 {
+  border-radius: 6px;
+  background-color: #fff;
+
+  width: 120px;
+}
+
+#b2 {
+  background-color: #fff;
+}
+#b1:hover {
+  background-color: #fc9d77;
+  transition: 0.4s;
+}
+#b2:hover {
+  background-color: #fc9d77;
+  transition: 0.4s;
+}
+.nav-link {
+  color: #fff;
+}
